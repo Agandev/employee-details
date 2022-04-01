@@ -13,7 +13,7 @@ class LoadingError extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text(message!),
+          Text("Something went wrong, please try again."),
           TextButton(
               onPressed: () {
                 onPressed(context);

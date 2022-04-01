@@ -80,6 +80,7 @@ class _EmployeeListPageState extends State<EmployeeListPage> {
                 return const EmployeeDetailsLoading();
               } else if (state.isError) {
                 return LoadingError(
+
                   onPressed: (res) {
                     reloadData(init: true, context: res);
                   },
